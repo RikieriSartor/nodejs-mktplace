@@ -10,7 +10,8 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.17"
+    "mongoose": "^5.4.17",
+    "require-dir": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^5.15.0",
