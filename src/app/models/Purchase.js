@@ -15,7 +15,7 @@ const Purchase = new mongoose.Schema({
   status: {
     type: String,
     required: true,
-    default: 'A'
+    default: 'P'
   },
   content: {
     type: String,

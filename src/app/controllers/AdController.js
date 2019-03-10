@@ -20,6 +20,8 @@ class AdController {
       filters.title = new RegExp(req.query.title, 'i')
     }
 
+    filters.purchasedBy = null
+
     const ads = await Ad.paginate(filters, {
       page: req.params.page || 1,
       limit: 20,
